@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size:x-large;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.header{
+    text-align: center;
+    height: 100px;
+    animation: slideNight 10s;
+}
+
+@keyframes slideNight{
+    from{
+        transform: translate(25%);
+        background: rgb(37, 37, 37);
+    }
+    30%{
+        transform: translate(-25%);
+        background:gray;
+       
+    }
+    80% {
+        transform: translate(0);
+        background: rgb(204, 204, 204);
+       
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+        .axes{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+        
+        .boite{
+            margin-top: 2%;
+            animation:slideLeft 5s ;
+        }
+        @keyframes slideLeft{
+        from{
+            transform: translate(50%);
+        }
+        to{
+            transform: translate(0);
+        }
+            }
+            .boite:hover{
+                transform: scale(120%);
+            }
+    
+        .boite2{
+            margin-top: 2%;
+            animation:slideRight 5s ;
+        }
+        @keyframes slideRight{
+        from{
+            transform: translate(-50%);
+        }
+        to{
+            transform: translate(0);
+        }
+        }
+            .boite2:hover{
+                transform: scale(120%);
+            }
+
+ #btn{
+    background-color: white;
+}
+ #btnNuit{
+    background-color: #222222;
+    color: white;
+ }
+
+ .bodyNight{
+    background-color: #222222;
+    color: white;
+ }
+
+ .button{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: -60px;
+    margin-bottom: 70px;
+    margin-left: 2%;
+ }
+ #btn1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 45px;
+    margin-left: 85%;
+    margin-bottom: 70px;
+    margin-top: -110px;
+}
+
+#list{
+    display: flex;
+   flex-direction: column ;
+    margin-left: 87%;
+    margin-bottom: 70px;
+    margin-top: -150px;
+}

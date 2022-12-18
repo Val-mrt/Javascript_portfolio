@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size:xx-large;
+}
+
+.contact{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+#logoLinkedIn{
+    animation: slide 30s infinite;
+}
+@keyframes slide{
+    from{
+        transform: translate(70%);
+        background: aqua;
+    }
+    30%{
+        transform: translate(-70%);
+        background: rgb(255, 153, 0);
+        color: white;
+    }
+    80% {
+        transform: translate(200%);
+        background: rgb(0, 255, 0);
+        color: red;
+    }
+    to{
+        transform: translate(0);
+    }
+}
+#logoGithub{
+    animation: slide2 30s infinite;
+}
+@keyframes slide2{
+    from{
+        transform: translate(70%);
+    }
+    30%{
+        transform: translate(-70%);
+    }
+    80% {
+        transform: translate(200%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+#logoDiscord{
+    animation: slide2 30s infinite;
+}
+@keyframes slide2{
+    from{
+        transform: translate(70%);
+    }
+    30%{
+        transform: translate(-70%);
+    }
+    80% {
+        transform: translate(200%);
+    }
+    to{
+        transform: translate(0);
+    }
+}

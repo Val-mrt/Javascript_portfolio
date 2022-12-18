@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 2%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+p{
+    margin-bottom: 3%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.main-container {
+    height: 800px;
+    display: flex;
+    padding-top: 5%;
+    }
+
+   .texte{
+        height: 300px;
+        display: flex;
+        text-align:center;
+        flex-direction: column;
+        font-size: 250%;
+        animation:slideLeft 10s;
+    }
+
+    #pdp{
+        height: 100%;
+        width: 50%;
+        padding: 1%;
+        animation:slideLeft 10s ;
+    }
+    @keyframes slideLeft{
+    from{
+        transform: translate(50%);
+    }
+    to{
+        transform: translate(0);
+    }
+}

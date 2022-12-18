@@ -1,0 +1,35 @@
+@media screen and (min-width:300px) and (max-width:601px){
+    .header{
+        width: -50%;
+        height: -50%;
+    }
+    .axes{
+        width: -50%;
+        height: -50%;
+    }
+    #carouselExampleControls{
+        width: -50%;
+        height: -50%;
+        margin-bottom: 15px;
+    }
+    .main-container {
+        width: 100%;
+        height: 100px;
+        }
+    .texte{
+        height: -100%;
+        width: -50%;
+        font-size: 13px;
+    }
+    #pdp{
+        height: 200px;
+        width: 200px;
+        margin-top: 20%;
+    }
+    .contact{
+        height: 100%;
+        width: 100%;
+        scale: 0.5;
+        padding-top: 500px;
+    }
+}
